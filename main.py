@@ -14,7 +14,7 @@ def index():
 @app.route("/get")
 #function for the bot response
 def get_bot_response():
-    userText = request.args.get('msg')
+    userText = request.args.get('msg').lower()
     return str(assisstant.run_alexa(userText))
 if __name__ == "__main__":
-    app.run()
+    app.run(host = '0.0.0.0', port = '8000', debug = 'True')
