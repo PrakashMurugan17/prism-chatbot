@@ -1,0 +1,6 @@
+feedparser
+pywhatkit
+flask
+regex
+pytz
+yarn add localtunnel
