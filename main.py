@@ -1,6 +1,6 @@
 
 from flask import Flask, render_template, request
-import assisstant
+from data import assisstant
 
 
 app = Flask(__name__)
