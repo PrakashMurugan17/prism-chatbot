@@ -3,3 +3,4 @@ pywhatkit
 flask
 regex
 pytz
+gunicorn
