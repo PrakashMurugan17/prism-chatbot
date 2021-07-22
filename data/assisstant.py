@@ -9,7 +9,7 @@ import feedparser
 import json
 import re
 import webbrowser
-import tkinter as tk
+
 import urllib.request as ul
 from bs4 import BeautifulSoup as soup
 import regex as re
