@@ -1,6 +1,9 @@
 feedparser
-pywhatkit
 flask
 regex
 pytz
 gunicorn
+requests
+pillow
+requests
+wikipedia

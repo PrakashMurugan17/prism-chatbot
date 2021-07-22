@@ -1,1 +1,1 @@
-web: gunicorn wsgi:prism-chatbot
+web: gunicorn app:main
